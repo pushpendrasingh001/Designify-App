@@ -24,12 +24,13 @@ function Navbar() {
         <div
           className={`navbar bg-transparent text-white fixed top-0 left-0 right-0 z-50 ${
             sticky
-              ? "sticky-navbar shadow-md bg-white text-slate-600 duration-300 translate-all ease-in-out"
+              ? "sticky-navbar shadow-md bg-white navtextcolor duration-300 translate-all ease-in-out"
               : ""
           }`}
         >
           <div className="navbar-start ">
-            <img className="w-[186px] h-[32px]" src="https://www.designify.com/designify_logo_color_dark.svg" alt="logo" />
+            <img className="w-[40px] h-[40px] ml-2" src="https://www.designify.com/logo_color.svg" alt="logo" /> 
+          <p className="poppins-semibold text-3xl ml-3"> designify</p>
           </div>
           <div className="navbar-center  lg:ml-[-20%] hidden lg:flex">
             <ul className="menu menu-horizontal px-1  text-lg poppins-medium">
