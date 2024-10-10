@@ -1,4 +1,5 @@
 import React from 'react';
+import Faq from './faq';
 // import {ReactComponent as SvgBatch} from '../assets/launchoffer/batch.svg'
 // import {ReactComponent as Plus} from '../assets/launchoffer/plus-solid.svg'
 function Home() {
@@ -52,7 +53,7 @@ function Home() {
         </div>
 
    
-        <div className="w-full lg:w-[40%] h-[50%] lg:h-full flex flex-col items-center justify-center lg:mt-0 px-5 lg:px-0">
+        <div className="w-full lg:w-[40%] h-[50%] lg:h-full flex flex-col items-center bg-[#F9FAFA] justify-center lg:mt-0 px-5 lg:px-0">
 
           <div className="w-full md:w-[376px] flex flex-col rounded-md shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] p-5 lg:p-10">
             <div className="w-full flex flex-col items-center">
@@ -227,7 +228,7 @@ function Home() {
 </div> 
 */}
 {/* e commerce */}
-<div className='w-[1556px] h-[727px] pt-[112px] pb-[112px] '>
+<div className='w-[1556px] h-[727px] pt-[112px] bg-[#F9FAFA] pb-[112px] '>
   <div className='w-[990px]  h-[503px] ml-[283px] mr-[283px]pl-[16px] flex  pr-[16px] '>
    <div className='w-[479px] h-[503px]  '>
   <div className='w-[479px] h-[24px] text-xl poppins-bold text-[#5CE0A6]  ml-4 mb-[29px]'> <p>E-COMMERCE</p></div>
@@ -277,7 +278,7 @@ function Home() {
 
 </div>
 {/* automotive */}
-<div className='w-[1556px] h-[727px] pt-[112px] pb-[112px] '>
+<div className='w-[1556px] h-[727px] pt-[112px] bg-[#F9FAFA] pb-[112px] '>
   <div className='w-[990px]  h-[503px] ml-[283px] mr-[283px]pl-[16px]  flex  pr-[16px] '>
    <div className='w-[479px] h-[503px]  '>
   <div className='w-[479px] h-[24px] text-xl poppins-bold text-[#5CE0A6]  ml-4 mb-[29px]'> <p>AUTOMOTIVE</p></div>
@@ -373,7 +374,7 @@ function Home() {
  </div>
 </div>
  </div>
- <div className='w-[479px] h-[284px] mt-[8px] pl-[40px] pr-[20px] bg-green-300 '>
+ <div className='w-[479px] h-[284px] mt-[8px] pl-[40px] pr-[20px] '>
  <div className='w-[479px] h-[24px] text-xl poppins-bold text-[#FE4C61]  mb-[29px]'> <p>NEW</p></div>
  <div><p className='poppins-bold text-4xl fontcolor2  mb-[29px]'>Designify Pro</p></div>
  <div className=' w-[419px] h-[48px] mb-[16px] '>
@@ -385,20 +386,105 @@ Get access to our Batch Editor & API to supercharge your workflow and download a
 </div>
       </div>
     </div>
+    {/* how it work */}
+    <div className='W-[1570PX] h-[470px]  pt-[144px] bg-[#F9FAFA] pb-[144px]'>
+      <div className=' w-[958px] h-[180px]  ml-[20%]'>
+       <div className='w-[958px] h-[24px] text-xl text-center poppins-bold text-[#5CE0A6]  mb-[29px]'> <p>HOW IT WORKS</p></div>
+   
+      <div className='w-[958px] h-[48px]'><p className='poppins-bold text-center text-4xl fontcolor2  mb-[29px]'>Artificial intelligence for design</p></div>
+      <div className=' w-[958px] h-[48px] mb-[16px] '>
+<p className=' fontcolor2 text-center size ml-[94px] mr-[94px]'>
+Designify combines the world's most advanced visual AIs into one simple tool. Remove backgrounds from any image in high quality, add realistic shadows and enhance colors to create beautiful designs using artificial intelligence.
+    </p>
+</div> 
+</div>
+      </div>
     {/* FAQ  */}
-    <div className='w-[1570px] h-[764px] pb-[112px] pt-[112px] bg-green-100'>
-      <div className=' w-[990px] h-[540px] ml-[290px] mr-[290px] pl-[16px] pr-[16px] bg-red-100'>
+    <div className='w-[1570px] h-[764px] pb-[112px] pt-[112px] '>
+      <div className=' w-[990px] h-[540px] ml-[290px] mr-[290px] pl-[16px] pr-[16px] '>
         <div className='w-[958px] h-[44px] '>
         <div><p className='poppins-bold text-4xl text-center fontcolor2  mb-[40px]'>Frequently asked questions</p></div>
-        {/* <Plus width={32} heigth={32}/> */}
-        <div>
-
-          <p>bhjhkhkjkhjkj</p>
-        </div>
+        <Faq/>
         </div>
  
       </div>
     </div>
+    {/* try it yourself */}
+    <div className='w-[1570px] h-[542px] bg-[#F9FAFA]   pt-[112px] pb-[112px]'>
+
+    <div className="w-full lg:w-[40%] h-[50%] lg:h-full ml-[30%] flex flex-col items-center justify-center lg:mt-0 px-5 lg:px-0">
+
+<div className="w-full md:w-[376px] flex flex-col rounded-md ">
+  <div className="w-full flex flex-col items-center">
+ 
+  <div><p className='poppins-bold text-4xl text-center fontcolor2  mb-[40px]'>Try it yourself</p></div>
+  
+    <div className="flex flex-row cursor-pointer mt-4 gap-2 rounded-md h-[40px] md:h-[45px] bg-blue-500 items-center justify-center">
+      <img
+        className="w-[24px] h-[24px] md:w-[32px] md:h-[32px]"
+        src="../../public/upload.svg"
+        alt=""
+      />
+      <button className="text-base md:text-xl lg:text-2xl text-white poppins-bold">
+        Upload Image
+      </button>
+    </div>
+
+
+    <p className="poppins-regular text-xs md:text-lg lg:text-xl mt-3 text-center">
+      or drop a file
+    </p>
+  </div>
+
+</div>
+
+
+<div className="w-full flex gap-2 ">
+  <div className="ml-[22%] ">
+    <div>
+      <span className="poppins-semibold size">No Image?</span>
+    </div>
+    <div>
+      <span className="poppins-semibold">Try one of these:</span>
+    </div>
+  </div>
+  <div className="flex gap-2 mt-3 justify-center">
+    <img
+      className="w-[40px] h-[40px] md:w-[42px] md:h-[42px] rounded-md cursor-pointer"
+      src="https://www.designify.com/demo-image-1-thumb.jpeg"
+      alt=""
+    />
+    <img
+      className="w-[40px] h-[40px] md:w-[42px] md:h-[42px] rounded-md cursor-pointer"
+      src="https://www.designify.com/demo-image-0-thumb.jpeg"
+      alt=""
+    />
+    <img
+      className="w-[40px] h-[40px] md:w-[42px] md:h-[42px] rounded-md cursor-pointer"
+      src="https://www.designify.com/demo-image-2-thumb.jpeg"
+      alt=""
+    />
+    <img
+      className="w-[40px] h-[40px] md:w-[42px] md:h-[42px] rounded-md cursor-pointer"
+      src="https://www.designify.com/demo-image-3-thumb.jpeg"
+      alt=""
+    />
+  </div>
+</div>
+
+
+<div className="w-full mt-5 text-center px-5">
+  <p className="textcolor poppins-regular font">
+    By uploading an image or URL you agree to our
+    <span className="font-medium underline cursor-pointer">Terms of Service.</span> This site is <br />
+    protected by hCaptcha and its
+    <span className="font-medium underline cursor-pointer">Privacy Policy</span> and
+    <span className="font-medium underline cursor-pointer">Terms of Service</span> apply.
+  </p>
+</div>
+</div>
+</div>
+  
     </>
   );
 }
