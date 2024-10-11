@@ -174,59 +174,7 @@ function Home() {
             </div>
         </div>
       </div>
-      {/* responsive */}
-      {/* <div className="w-full h-screen pt-28 pb-28 relative">
-  
-  <div className="absolute top-0 left-0">
-    <img className="w-5 h-5 ml-24 md:ml-10 lg:ml-32 xl:ml-36" src="https://www.designify.com/sprites/element_4.svg" alt="" />
-    <img className="w-14 h-14 ml-36 md:ml-20 mt-8" src="https://www.designify.com/sprites/element_1.svg" alt="" />
-  </div>
 
-
-  <div className="absolute top-1/4 right-0">
-    <img className="w-5 ml-96 md:ml-40 lg:ml-80 xl:ml-96" src="https://www.designify.com/sprites/element_4.svg" alt="" />
-    <img className="w-14 h-14 mt-3 ml-72 md:ml-20 lg:ml-64 xl:ml-72" src="https://www.designify.com/sprites/element_3.svg" alt="" />
-  </div>
-
-  <div className="w-full md:w-3/4 lg:w-2/3 xl:w-1/2 mx-auto text-center p-4">
-    <p className="poppins-bold text-2xl md:text-3xl lg:text-4xl text-gray-800 mb-6">
-      Create automatic designs using your favorite <br /> photos
-    </p>
-    <p className="text-sm md:text-base lg:text-lg text-gray-700 mb-10">
-      Pick any image to create AI-powered designs by automatically removing backgrounds, enhancing colors, adjusting smart shadows, and so much more. Save, download, or share your designs right away.
-    </p>
-
-
-    <div className="flex flex-col md:flex-row justify-center items-start gap-8">
-
-      <div className="flex flex-col items-center mb-4">
-        <img className="w-32 h-32" src="https://www.designify.com/start/intro/upload.png" alt="" />
-        <p className="mt-4 poppins-bold text-gray-800 text-sm md:text-base">1. Upload Your Image</p>
-      </div>
-
- 
-      <div className="flex items-center justify-center mb-4">
-        <img className="w-16 h-16" src="https://www.designify.com/start/arrow.svg" alt="" />
-      </div>
-
-      <div className="flex flex-col items-center mb-4">
-        <img className="w-28 h-28" src="https://www.designify.com/logo_color.svg" alt="" />
-        <p className="mt-4 poppins-bold text-gray-800 text-sm md:text-base">2. Magic</p>
-      </div>
-
-
-      <div className="flex items-center justify-center mb-4">
-        <img className="w-16 h-16" src="https://www.designify.com/start/arrow.svg" alt="" />
-      </div>
-
-      <div className="flex flex-col items-center mb-4">
-        <img className="w-48 h-48" src="https://www.designify.com/start/intro/choose.png" alt="" />
-        <p className="mt-4 poppins-bold text-gray-800 text-sm md:text-base">3. Choose Your Design</p>
-      </div>
-    </div>
-  </div>
-</div> 
-*/}
 {/* e commerce */}
 <div className='w-[1556px] h-[727px] pt-[112px] bg-[#F9FAFA] pb-[112px] '>
   <div className='w-[990px]  h-[503px] ml-[283px] mr-[283px]pl-[16px] flex  pr-[16px] '>
@@ -328,48 +276,49 @@ function Home() {
   </div>
 </div>
 {/*   launch offer */}
-    <div  className='w-[1570px] h-[580px] pt-[144px] pb-[144px] bg-pink-200 '>
-      <div className='w-[990px] h-[292px] ml-[290px] mr-[290px] pl-[16px] pr-[16px] flex bg-yellow-200 '>
- <div className='w-[479px] h-[292px] pr-[40px] pl-[20px] bg-blue-100 '>
+    <div  className='w-[1570px] h-[580px] pt-[144px] pb-[144px]  '>
+      <div className='w-[990px] h-[292px] ml-[290px] mr-[290px] pl-[16px] pr-[16px] flex  '>
+ <div className='w-[479px] h-[292px] pr-[40px] pl-[20px]  '>
 <div className=' w-[419px] h-[280px] mb-[12px] pl-[32px] pr-[32px] '>
  <div className='flex'> 
   <div>
-     <img src="" alt="" />
+     <img  className='w-[40px] h-[40px] 'src="../../src/assets/downarrow.svg" alt="" />
   </div>
   <div>
-<p> Batch Processing</p>
-  </div>
- </div>
- <div className='flex'> 
-  <div>
-
-  </div>
-  <div>
-<p>High Resolution</p>
+<p className='text-lg h-[27px] w-[290px] poppins-semibold m-3 text-[#454545]text-center'> Batch Processing</p>
   </div>
  </div>
- <div className='flex'> 
+ <div className='flex '> 
   <div>
-
+<img className='w-[40px] h-[40px]' src="../../src/assets/downarrow.svg" alt="" />
   </div>
   <div>
-<p>API Access</p>
+<p className='text-lg h-[27px] w-[290px] poppins-semibold m-3 text-[#454545]text-center'>High Resolution</p>
   </div>
  </div>
- <div className='flex'> 
+ <div className='flex '> 
   <div>
+<img className='w-[40px] h-[40px]' src="../../src/assets/downarrow.svg" alt="" />
+  </div>
+  <div>
+<p className='text-lg h-[27px] w-[290px] poppins-semibold m-3 text-[#454545]text-center'>API Access</p>
+  </div>
+ </div>
+ <div className='flex '> 
+  <div>
+    <img className='w-[40px] h-[40px]' src="../../src/assets/downarrow.svg" alt="" />
   {/* <SvgBatch width={100} heigth={100}/> */}
   </div>
   <div>
-<p>Lifetime Feature Updates</p>
+<p className='text-lg h-[27px] w-[290px] poppins-semibold text-[#454545]text-center m-3'>Lifetime Feature Updates</p>
   </div>
  </div>
- <div className='flex'> 
+ <div className='flex '> 
   <div>
-<img src="" alt="" />
+<img className='w-[40px] h-[40px]' src="../../src/assets/downarrow.svg" alt="" />
   </div>
   <div>
-    <p>Lifetime Price Guarantee</p>
+    <p className='text-lg h-[27px] w-[290px] poppins-semibold ml-3 text-[#454545]text-center mt-3'>Lifetime Price Guarantee</p>
   </div>
  </div>
 </div>
@@ -386,8 +335,82 @@ Get access to our Batch Editor & API to supercharge your workflow and download a
 </div>
       </div>
     </div>
+    {/* they love us */}
+    <div className=' w-[1540px]  h-[736px] pt-[128px] pb-[128px] '>
+  <div className='w-[990px] h-[568px]  ml-[277px] mr-[277px] pl-[16px] pr-[16px]' >
+  <div className='w-[958px]  h-[43px]'><p className='poppins-bold  text-center text-4xl fontcolor2  mb-[24px]'>They love us. You will too.
+    </p></div>
+    <div className='w-[958px] h-[484px] mt-[40px] flex gap-5'>
+      <div className='p-[24px]  w-[304px] h-[484px] rounded-lg border-4 '>
+        <div className='w-[247px] h-[120px]'>
+          <img className='w-[247px] h-[120px] ' src="
+          https://www.designify.com/testimonials/shira_brown.png" alt="" />
+        </div>
+        <div className='w-[247px] h-[216px]  '>
+       
+<p className='text-lg poppins-semibold text-[#454545]text-center  mt-[24px]'>“It is intuitive and makes amazing photos - even out of a boring photo. Designify.com is an essential tool in my work with clients of all industries.”
+</p>
+  
+        </div>
+        <div className='w-[247px] h-[24px] '>
+        <p className='text-lg poppins-semibold text-[#454545]text-center m-3  mt-3 '>Shira
+        </p>
+</div> 
+ <div className='w-[247px] h-[24px] '>
+ <p className=' fontcolor2 size ml-3 mt-2'>
+CEO of Shirabrown.com
+    </p>
+</div>
+      </div>
+     
+      <div className='p-[24px] rounded-lg border-4  w-[304px] h-[484px]'>
+        <div className='w-[247px] h-[120px] '>
+          <img className='w-[247px] h-[120px] ' src="
+        https://www.designify.com/testimonials/snapautos.jpg" alt="" />
+        </div>
+        <div className='w-[247px] h-[216px]  '>
+       
+<p className='text-lg poppins-semibold text-[#454545]text-center  mt-[24px]'>“Designify has allowed my company to remove and add backgrounds to vehicle photos easily. The best AI photo editing app by far!”
+</p>
+  
+        </div>
+        <div className='w-[247px] h-[24px] '>
+        <p className='text-lg poppins-semibold text-[#454545]text-center m-3 mt-3'>Shergio Diaz
+        </p>
+</div> 
+ <div className='w-[247px] h-[24px] '>
+ <p className=' fontcolor2 size ml-3 mt-2'>
+ CEO of  Snap Autos
+    </p>
+</div>
+      </div>
+      <div className='p-[24px] rounded-lg border-4  w-[304px] h-[484px]'>
+        <div className='w-[247px] h-[120px] '>
+          <img className='w-[247px] h-[120px] ' src="
+           https://www.designify.com/testimonials/ad_brain.png" alt="" />
+        </div>
+        <div className='w-[247px] h-[216px]  '>
+       
+<p className='text-lg poppins-semibold text-[#454545]text-center mt-[24px]'>“Designify Pro helps me create professional-looking marketing assets for my clients. It is really easy to use, and I am genuinely amazed by the images’ resolution within the paid version. I love it!”
+</p>
+  
+        </div>
+        <div className='w-[247px] h-[24px] '>
+        <p className='text-lg poppins-semibold text-[#454545]text-center m-3 mt-3'>Wiktoria
+        </p>
+</div> 
+ <div className='w-[247px] h-[24px] '>
+ <p className=' fontcolor2 size ml-3 '>
+CEO of Adbrain
+    </p>
+</div>
+      </div>
+
+    </div>
+  </div>
+    </div>
     {/* how it work */}
-    <div className='W-[1570PX] h-[470px]  pt-[144px] bg-[#F9FAFA] pb-[144px]'>
+    <div className='W-[1570PX] h-[470px]   pt-[144px] bg-[#F9FAFA] pb-[144px]'>
       <div className=' w-[958px] h-[180px]  ml-[20%]'>
        <div className='w-[958px] h-[24px] text-xl text-center poppins-bold text-[#5CE0A6]  mb-[29px]'> <p>HOW IT WORKS</p></div>
    
@@ -484,7 +507,146 @@ Designify combines the world's most advanced visual AIs into one simple tool. Re
 </div>
 </div>
 </div>
+  {/* footer */}
+  <div className=' w-[1540PX]  h-[507px] pt-[64px] pb-[24px] '>
+<div className='w-[990px] h-[418px] ml-[277px] mr-[277px] pl-[16px] pr-[16px]'>
+  <div className=' w-[958px] h-[376px] pb-[16px] '>
+<div className='flex'>
+<div className=' w-[239px] pr-[16px]  h-[360px] '>
+<div className=' w-[150px] h-[360px]  '>
+<div>
+<p className='text-lg mb-[12px] poppins-semibold text-[#454545] '>Designify
+</p>
+<p className=' fontcolor2 poppins-regular mb-[12px] size '>
+Designs
+    </p>
+    <p className=' fontcolor2 poppins-regular mb-[12px] size'>
+    Pricing
+    </p>
+    <p className=' fontcolor2 poppins-regular mb-[12px] size'>
+
+    API
+    </p>
+    <p className=' fontcolor2 poppins-regular mb-[12px] size'>
+    Batch Editor
+    </p>
+    <p className=' fontcolor2 poppins-regular mb-[12px] size'>
+
+    Product Feedback
+    </p>
+    <p className=' fontcolor2 mb-[12px] poppins-regular size '>
+    Help & Contact
+    </p>
   
+
+
+
+</div>
+</div>
+</div>
+<div className=' w-[239px] pr-[16px]  h-[360px] '>
+<div className='  h-[360px]  '>
+<div>
+<p className='text-lg mb-[12px] poppins-semibold text-[#454545] '>Get Started
+</p>
+<p className=' fontcolor2 poppins-regular mb-[12px] size '>
+E-Commerce
+    </p>
+    <p className=' fontcolor2 poppins-regular mb-[12px] size'>
+    Car Dealership
+    </p>
+    <p className=' fontcolor2 poppins-regular mb-[12px] size'>
+
+    Batch Editing
+    </p>
+    <p className=' fontcolor2 poppins-regular mb-[12px] size'>
+    API Integration
+    </p>
+    <p className=' fontcolor2 poppins-regular mb-[12px] size'>
+
+    Customize Design
+    </p>
+    <p className=' fontcolor2 mb-[12px] poppins-regular size '>
+    3D Shadows
+    </p>
+    <p className=' fontcolor2 mb-[12px] poppins-regular size '>
+    Background Removal
+    </p>
+    <p className=' fontcolor2 mb-[12px] poppins-regular size '>
+    Auto Enhance
+    </p>
+    <p className=' fontcolor2 mb-[12px] poppins-regular size '>
+    Fix pixelation
+    </p>
+  
+
+
+
+</div>
+
+</div>
+</div>
+<div className=' w-[239px] pr-[16px]  h-[360px] '>
+<div className=' w-[207px] h-[360px]  '>
+<div>
+<p className='text-lg mb-[12px] poppins-semibold text-[#454545] '>Our Company
+</p>
+<p className=' fontcolor2 poppins-regular mb-[12px] size '>
+About us
+    </p>
+    <p className=' fontcolor2 poppins-regular mb-[12px] size'>
+    Press
+    </p>
+    <p className=' fontcolor2 poppins-regular mb-[12px] size'>
+
+    Image Background Removal
+    </p>
+    <p className=' fontcolor2 poppins-regular mb-[12px] size'>
+    Video Background Removal
+    </p>
+    <p className=' fontcolor2 poppins-regular mb-[12px] size'>
+
+Enterprise Solutions
+    </p>
+    <p className=' fontcolor2 mb-[12px] poppins-regular size '>
+  Careers
+    </p>
+  
+
+
+
+</div>
+</div>
+</div>
+<div className=' w-[239px]  h-[360px] '>
+<div className=' w-[160px] h-[360px]  '>
+<p className='text-lg mb-[12px] poppins-semibold text-[#454545] '>Follow Designify
+</p>
+<div className='flex justify-evenly mb-8'>
+<img className=' w-[41px] h-[41px] cursor-pointer  ' src="../../public/twiter.svg" alt="" />
+<img className=' w-[41px] h-[41px] cursor-pointer  ' src="../../public/facebook.svg" alt="" />
+<img className=' w-[41px] h-[41px] cursor-pointer  ' src="../../public/instagram.svg" alt="" />
+</div>
+<img src="https://api.producthunt.com/widgets/embed-image/v1/product_rating.svg?product_id=461578&theme=light" alt="" />
+</div>
+</div>
+</div>
+<hr />
+
+</div>
+<div className='w-[958px] mt-[24px] h-[18px] flex
+  '>
+<p className='font12px poppins-regular text-[#454545]'>© Designify, a <span className='underline cursor-pointer'>Canva Austria GmbH</span> brand</p>
+<div className='font12px poppins-regular text-[#454545] ml-[80px]'><p className='ml-[4px] mr-[4px] cursor-pointer '>Terms of Service</p></div>
+<div className='font12px poppins-regular flex text-[#454545]'><p>|</p><p className='ml-[4px] mr-[4px] cursor-pointer '>General Terms and Conditions</p></div>
+<div className='font12px poppins-regular flex text-[#454545]'><p>|</p><p className='ml-[4px] mr-[4px] cursor-pointer '>Privacy Policy</p></div>
+<div className='font12px poppins-regular flex text-[#454545]'> <p>|</p><p className='ml-[4px] mr-[4px] cursor-pointer '>Cookie Policy</p></div>
+<div className='flex font12px poppins-regular text-[#454545]'><p>|</p><p className='ml-[4px] mr-[4px] cursor-pointer '>Refunds</p></div>
+<div className='flex font12px poppins-regular text-[#454545]'><p>|</p><p className='ml-[4px] mr-[4px] cursor-pointer '>Imprint</p></div>
+  
+</div>
+</div>
+  </div>
     </>
   );
 }
