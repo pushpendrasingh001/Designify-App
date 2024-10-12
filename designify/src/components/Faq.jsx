@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const FAQ = () => {
+const Faq = () => {
   const faqItems = [
     { question: "Can Designify be used for free?", answer: "Yes, Designify offers a free version with limited features." },
     { question: "Which image formats are supported?", answer: "Supported formats are JPEG, PNG, and SVG." },
@@ -42,4 +42,4 @@ const FAQ = () => {
   );
 };
 
-export default FAQ;
+export default Faq;
