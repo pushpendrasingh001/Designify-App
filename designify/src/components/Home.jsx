@@ -1,5 +1,5 @@
 import React from 'react';
-import Faq from './faq';
+import Faq from './Faq';
 // import {ReactComponent as SvgBatch} from '../assets/launchoffer/batch.svg'
 // import {ReactComponent as Plus} from '../assets/launchoffer/plus-solid.svg'
 function Home() {
@@ -216,7 +216,7 @@ function Home() {
 </div>
 
 {/* marketing */}
-<div className='w-full max-w-[1556px] h-auto pt-[112px] pb-[112px]'>
+<div className='w-full max-w-[1556px] h-auto pt-[111px] pb-[112px]'>
   <div className='w-full max-w-[990px] h-auto mx-auto px-4 flex flex-col lg:flex-row'>
    
     <div className='w-full lg:w-[479px] h-auto order-2 lg:order-1'>
@@ -318,7 +318,49 @@ function Home() {
     </div>
   </div>
 </div>
-
+{/* Automation */}
+<div className='w-full h-auto pt-28 pb-28'>
+  <div className='max-w-screen-xl mx-auto px-4'>
+    <div className='w-full text-xl text-center poppins-bold text-[#5CE0A6] mb-7'>
+      <p>AUTOMATION</p>
+    </div>
+    <div>
+      <p className='poppins-bold text-3xl lg:text-4xl text-center fontcolor2 mb-7'>
+        Process any number of images
+      </p>
+      <p className='fontcolor2 text-center text-sm lg:text-base'>
+        Designify any image with <span className='text-blue-500 cursor-pointer hover:underline'>1 API call</span>, or batch-edit photos directly on the website.
+      </p>
+    </div>
+    <div className='flex flex-col md:flex-row justify-center items-center pt-10'>
+      <div className='relative w-80 h-80 mb-10 md:mb-0 '>
+  <div>
+  <img className="absolute w-52 h-52 ml-[20%] z-20" src="https://www.designify.com/start/automation/original_3.png" alt="Image 1" />
+        <img className="absolute z-10 w-52 h-52 mt-[10%] ml-[10%]" src="https://www.designify.com/start/automation/original_2.png" alt="Image 2" />
+        <img className="absolute w-52 h-52 mt-[20%] " src="https://www.designify.com/start/automation/original_1.png" alt="Image 3" />
+  </div>
+  <div className='mt-[90%] '>
+  <p className='poppins-bold text-[#98A0A6] ml-[8px] text-lg'>Original</p>
+  </div>
+      </div>
+      <div className='relative w-80 hidden lg:block pt-20 pl-10 h-80 mb-10 md:mb-0'>
+        <img className="absolute w-24 h-8 ml-[20%] z-20" src="https://www.designify.com/start/arrow.svg" alt="Arrow 1" />
+        <img className="absolute z-10 w-24 h-8 mt-[10%] ml-[10%]" src="https://www.designify.com/start/arrow.svg" alt="Arrow 2" />
+        <img className="absolute w-24 h-8 mt-[20%]" src="https://www.designify.com/start/arrow.svg" alt="Arrow 3" />
+      </div>
+      <div className='relative w-80 h-80'>
+ <div>
+ <img className="absolute w-52 h-52 ml-[20%] z-20" src="https://www.designify.com/start/automation/design_3.png" alt="Design 1" />
+        <img className="absolute z-10 w-52 h-52 mt-[10%] ml-[10%]" src="https://www.designify.com/start/automation/design_2.png" alt="Design 2" />
+        <img className="absolute w-52 h-52 mt-[20%] " src="https://www.designify.com/start/automation/design_1.png" alt="Design 3" />
+ </div>
+ <div className='mt-[90%] '>
+  <p className='poppins-bold text-[#98A0A6] ml-[8px] text-lg'>Batch Editing</p>
+  </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 {/*   launch offer */}
 <div className='w-full h-auto pt-10 pb-10 lg:pt-[144px] lg:pb-[144px]'>
