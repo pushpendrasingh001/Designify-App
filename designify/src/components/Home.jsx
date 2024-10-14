@@ -10,7 +10,7 @@ function Home() {
   <div className="relative flex flex-col w-full lg:w-[60%] h-auto lg:h-full">
     <img
       className="w-full h-[40vh] md:h-[50vh] lg:h-full object-cover lg:object-fill"
-      src="../../public/designify_gallery.png"
+      src="../../src/assets/designify_gallery.png"
       alt=""
     />
 
@@ -61,7 +61,7 @@ function Home() {
         <div className="flex flex-row cursor-pointer mt-4 gap-2 rounded-md h-[40px] md:h-[45px] bg-blue-500 items-center justify-center">
           <img
             className="w-[24px] h-[24px] md:w-[32px] md:h-[32px]"
-            src="../../public/upload.svg"
+            src="../../src/assets/upload.svg"
             alt=""
           />
           <button className="text-base md:text-xl lg:text-2xl text-white poppins-bold">
@@ -579,7 +579,7 @@ function Home() {
 
        
         <div className="flex flex-row cursor-pointer mt-4 gap-2 rounded-md h-[40px] md:h-[45px] bg-blue-500 items-center justify-center w-full lg:w-[270px] max-w-xs lg:max-w-md">
-          <img className="w-[24px] h-[24px] md:w-[32px] md:h-[32px]" src="../../public/upload.svg" alt="Upload Icon" />
+          <img className="w-[24px] h-[24px] md:w-[32px] md:h-[32px]" src="../../src/assets/upload.svg" alt="Upload Icon" />
           <button className="text-sm sm:text-lg md:text-xl lg:text-2xl text-white poppins-bold">Upload Image</button>
         </div>
 
@@ -664,9 +664,9 @@ function Home() {
           <div className='w-full h-auto'>
             <p className='text-lg mb-[12px] poppins-semibold text-[#454545]'>Follow Designify</p>
             <div className='flex lg:justify-evenly mb-8'>
-              <img className='w-[41px] h-[41px] cursor-pointer' src="../../public/twiter.svg" alt="Twitter" />
-              <img className='w-[41px] h-[41px] cursor-pointer' src="../../public/facebook.svg" alt="Facebook" />
-              <img className='w-[41px] h-[41px] cursor-pointer' src="../../public/instagram.svg" alt="Instagram" />
+              <img className='w-[41px] h-[41px] cursor-pointer' src="../../src/assets/twiter.svg" alt="Twitter" />
+              <img className='w-[41px] h-[41px] cursor-pointer' src="../../src/assets/facebook.svg" alt="Facebook" />
+              <img className='w-[41px] h-[41px] cursor-pointer' src="../../src/assets/instagram.svg" alt="Instagram" />
             </div>
             <img src="https://api.producthunt.com/widgets/embed-image/v1/product_rating.svg?product_id=461578&theme=light" alt="Product Rating" />
           </div>
