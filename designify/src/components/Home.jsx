@@ -241,7 +241,7 @@ function Home() {
           <img className='w-[50px] hidden lg:block lg:w-[98px] h-auto mb-5 lg:mb-0  ml-5 lg:rotate-180 lg:mr-[35px]' src="https://www.designify.com/start/arrow.svg" alt="Arrow" />
 
           <div>
-            <img className='w-[80%] w-[240px] h-[180px] lg:mt-12  mx-auto' src="https://www.designify.com/start/marketing/original.png" alt="Original" />
+            <img className=' w-[240px] h-[180px] lg:mt-12  mx-auto' src="https://www.designify.com/start/marketing/original.png" alt="Original" />
             <p className='poppins-bold text-[#98A0A6] text-lg mt-2 text-center'>Original</p>
           </div>
         </div>
