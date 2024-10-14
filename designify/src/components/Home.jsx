@@ -216,7 +216,7 @@ function Home() {
 </div>
 
 {/* marketing */}
-<div className='w-full max-w-[1556px] h-auto pt-[112px] pb-[112px]'>
+<div className='w-full max-w-[1556px] h-auto pt-[111px] pb-[112px]'>
   <div className='w-full max-w-[990px] h-auto mx-auto px-4 flex flex-col lg:flex-row'>
    
     <div className='w-full lg:w-[479px] h-auto order-2 lg:order-1'>
