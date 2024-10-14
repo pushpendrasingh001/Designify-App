@@ -5,23 +5,23 @@ import Faq from './faq';
 function Home() {
   return (
     <>
-     <div className="flex flex-col lg:flex-row h-auto lg:h-screen">
-  
+   <div className="flex flex-col lg:flex-row h-auto lg:h-screen">
+  {/* Left Section */}
   <div className="relative flex flex-col w-full lg:w-[60%] h-auto lg:h-full">
     <img
-      className="w-full h-full object-cover lg:object-fill"
+      className="w-full h-[40vh] md:h-[50vh] lg:h-full object-cover lg:object-fill"
       src="../../public/designify_gallery.png"
       alt=""
     />
 
-    <p className="absolute text-white poppins-bold text-2xl md:text-4xl lg:text-5xl top-[20%] left-[5%] lg:top-[25%] lg:left-[12%]">
+    <p className="absolute text-white poppins-bold text-2xl md:text-4xl lg:text-5xl top-[30%] left-[10%] lg:top-[25%] lg:left-[12%]">
       Turn Any Photo <br /> Into Awesome
     </p>
-    <p className="absolute text-white poppins-regular text-sm md:text-lg lg:text-2xl top-[35%] left-[5%] lg:top-[42%] lg:left-[12%]">
+    <p className="absolute text-white poppins-regular text-sm md:text-lg lg:text-2xl top-[60%] left-[10%] lg:top-[42%] lg:left-[12%]">
       100% Automatically and <span className="poppins-bold underline">Free</span>
     </p>
 
-    <div className="absolute w-[90%] md:w-[533px] bgcolor top-[50%] left-[5%] lg:top-[55%] lg:left-[12%] cursor-pointer rounded-md h-[40px] flex items-center">
+    <div className="absolute w-[90%] md:w-[533px] bgcolor top-[80%] left-[10%] lg:top-[55%] lg:left-[12%] cursor-pointer rounded-md h-[40px] flex items-center">
       <div className="pinkcolor rounded-xl text-white w-[42px] h-[23px] text-center m-2">
         <p>New</p>
       </div>
@@ -48,8 +48,8 @@ function Home() {
     </div>
   </div>
 
-  
-  <div className="w-full lg:w-[40%] h-auto lg:h-full flex flex-col items-center bg-[#F9FAFA] justify-center lg:mt-0 px-5 lg:px-0">
+  {/* Right Section */}
+  <div className="w-full lg:w-[40%] h-auto lg:h-full flex flex-col items-center bg-[#F9FAFA] justify-center lg:mt-0">
     <div className="w-full md:w-[376px] flex flex-col rounded-md shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] p-5 lg:p-10">
       <div className="w-full flex flex-col items-center">
         <img
@@ -122,6 +122,8 @@ function Home() {
     </div>
   </div>
 </div>
+
+
 
       {/* create automotive */}
       <div className='w-screen h-auto pt-[112px] pb-[112px] relative'>
@@ -236,10 +238,10 @@ function Home() {
       <div className='flex flex-col lg:flex-row items-center justify-start mt-[60px]'>
         <div className='flex flex-col items-center lg:flex-row'>
          
-          <img className='w-[50px] hidden lg:block lg:w-[98px] h-auto mb-5 lg:mb-0 lg:rotate-180 lg:mr-[35px]' src="https://www.designify.com/start/arrow.svg" alt="Arrow" />
+          <img className='w-[50px] hidden lg:block lg:w-[98px] h-auto mb-5 lg:mb-0  ml-5 lg:rotate-180 lg:mr-[35px]' src="https://www.designify.com/start/arrow.svg" alt="Arrow" />
 
           <div>
-            <img className='w-[80%] lg:w-[240px] h-auto mx-auto' src="https://www.designify.com/start/marketing/original.png" alt="Original" />
+            <img className='w-[80%] w-[240px] h-[180px] lg:mt-12  mx-auto' src="https://www.designify.com/start/marketing/original.png" alt="Original" />
             <p className='poppins-bold text-[#98A0A6] text-lg mt-2 text-center'>Original</p>
           </div>
         </div>
@@ -264,7 +266,7 @@ function Home() {
         </p>
       </div>
       <div className='flex flex-col lg:flex-row items-center justify-start mt-[100px]'>
-        <div className='flex flex-col items-center'>
+        <div className='flex flex-col lg:mt-10 items-center'>
           <img className='w-[240px] h-[184px] mt-5' src="https://www.designify.com/start/automotive/original.png" alt="Original" />
           <p className='poppins-bold text-[#98A0A6] ml-[8px] text-lg'>Original</p>
         </div>
