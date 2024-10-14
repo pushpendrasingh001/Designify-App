@@ -167,11 +167,11 @@ function Navbar() {
             </button>
 
             {showUpload && (
-              <button className="ml-4 bg-blue-500 text-white py-2 px-4 rounded-lg border-2 hidden lg:inline-block">
+              <button className="ml-4 bg-blue-500 text-white py-2 px-4 poppins-semibold rounded-lg border-2 hidden lg:inline-block">
                 Upload Image
               </button>
             )}
-            <button className="ml-4 bg-[#F9FAFA] text-[#454545] border-2 py-2 px-4 rounded-lg hidden lg:inline-block">
+            <button className="ml-4 bg-[#F9FAFA] text-[#454545] border-2 py-2 poppins-semibold px-4 rounded-lg hidden lg:inline-block">
               Signin/Sign Up
             </button>
           </div>

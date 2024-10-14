@@ -225,23 +225,23 @@ function Home() {
     </div>
 
     <div className='w-full lg:w-[479px] h-auto order-1 lg:order-2'>
-      <div className='text-xl poppins-bold text-[#5CE0A6] mb-[29px]'>
+      <div className='text-xl poppins-bold text-[#5CE0A6] pl-[32px] mb-[29px]'>
         <p>MARKETING</p>
       </div>
       <div>
-        <p className='poppins-bold text-3xl lg:text-4xl fontcolor2 mb-[29px]'>
+        <p className='poppins-bold text-3xl lg:text-4xl pl-[32px] fontcolor2 mb-[29px]'>
           Launch engaging campaigns with unique visuals
         </p>
       </div>
 
      
       <div className='flex flex-col lg:flex-row items-center justify-start mt-[60px]'>
-        <div className='flex flex-col items-center lg:flex-row'>
+        <div className='flex flex-col items-center lg:flex-row pl-[32px]'>
          
           <img className='w-[50px] hidden lg:block lg:w-[98px] h-auto mb-5 lg:mb-0  ml-5 lg:rotate-180 lg:mr-[35px]' src="https://www.designify.com/start/arrow.svg" alt="Arrow" />
 
           <div>
-            <img className=' w-[240px] h-[180px] lg:mt-12  mx-auto' src="https://www.designify.com/start/marketing/original.png" alt="Original" />
+            <img className=' w-[240px] h-[180px] lg:mt-12 ml-[32px] mx-auto' src="https://www.designify.com/start/marketing/original.png" alt="Original" />
             <p className='poppins-bold text-[#98A0A6] text-lg mt-2 text-center'>Original</p>
           </div>
         </div>
